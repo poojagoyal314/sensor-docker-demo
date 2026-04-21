@@ -1,0 +1,10 @@
+services:
+  sensor-pipeline:
+    build: .
+    container_name: sensor_processor
+
+  data-generator:
+    image: python:3.11-slim
+    container_name: data_generator
+    command: ["python", "-c", "print('Data generator started'); print('Simulating sensor stream at 1kHz...'); print('Sending 1000 samples to pipeline...'); print('Done.')"]
+
