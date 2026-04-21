@@ -1,4 +1,4 @@
-\# Sensor Docker Demo
+# Sensor Docker Demo
 
 
 
@@ -6,13 +6,13 @@ A containerised signal processing pipeline built with Docker.
 
 
 
-\## What it does
+## What it does
 
 Applies a Butterworth low-pass filter to a simulated MEMS sensor signal (1kHz, 10Hz sine + noise).
 
 
 
-\## Run it instantly
+## Run it instantly
 
 ```bash
 
@@ -24,11 +24,11 @@ docker run poojagoyal314/sensor-docker-demo
 
 
 
-\## Stack
+## Stack
 
-\- Python 3.11-slim
+- Python 3.11-slim
 
-\- NumPy, SciPy
+- NumPy, SciPy
 
-\- Docker
+- Docker
 
